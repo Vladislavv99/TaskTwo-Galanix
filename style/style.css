@@ -76,10 +76,31 @@ img:hover{
     .gallery {
         max-width: 900px;
         grid-template-columns: repeat(4, minmax(320px, 1fr));
+        grid-gap: 20px;
+        grid-gap: 30px;
         }
 }
 
 p {
     font-size: large;
     text-align: center;
+}
+
+.del-img{
+    font-size: large;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.update-all {
+    display: block;
+    margin: 0 auto;
+    font-size: large;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
